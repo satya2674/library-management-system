@@ -1,0 +1,56 @@
+Library Management System Project
+
+Project Title: Library Management System
+
+Objective:
+To automate library operations such as managing books, students, book issuing, and returns.
+
+Modules
+Admin Module
+Add, update, delete books
+Manage student records
+View issued books
+Student Module
+Search books
+View available books
+Check issued books and due dates
+Book Issue & Return Module
+Issue books to students
+Return books
+Calculate late fines
+Technologies Used
+Frontend: HTML, CSS, JavaScript
+Backend: Python (Flask/Django) or Java
+Database: MySQL
+Database Tables
+Table	Purpose
+Books	Store book details
+Students	Store student details
+Issue_Books	Track issued books
+Returns	Track returned books
+Main Features
+User Login Authentication
+Add/Edit/Delete Books
+Search Books
+Issue & Return Books
+Fine Calculation
+Generate Reports
+GitHub Repository Structure
+Library-Management-System/
+│
+├── README.md
+├── requirements.txt
+├── app.py
+├── database/
+│   └── library.sql
+├── templates/
+│   ├── login.html
+│   ├── dashboard.html
+│   └── books.html
+├── static/
+│   ├── css/
+│   └── js/
+└── screenshots/
+Resume Description
+
+Developed a Library Management System using Python, Flask, and MySQL to automate book management, issue/return operations, and student record maintenance. Implemented authentication, search functionality, and fine calculation features.
